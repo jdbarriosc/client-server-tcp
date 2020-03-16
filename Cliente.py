@@ -4,7 +4,7 @@ buffer_size = 1024
 
 def main():
 
-    conec = "localhost"
+    conec = "23.21.18.85"
     s = socket()
     s.connect((conec, 6030))
     f = open("recibido", "wb")
